@@ -18,7 +18,7 @@ Aircraft wheel hub inspections are critical for aviation safety. Missing a crack
 
 ### Dataset Characteristics
 - 8,870 total inspection records across multiple hub types
-- Focused on 385 A350 Main Wheel records (highest crack rate: 18.24%)
+- Focused on 385 Type 05 Main Wheel records (highest crack rate: 18.24%)
 - Class distribution: 86% No Crack vs 14% Crack
 - 5.6 years of operational data
 
