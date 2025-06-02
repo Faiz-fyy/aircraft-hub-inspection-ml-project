@@ -8,7 +8,7 @@
 
 ## Project Overview
 
-Machine learning application for predicting crack occurrences in aircraft wheel hubs using eddy current testing data. This project demonstrates end-to-end data science capabilities in a safety-critical aviation environment.
+Machine learning application for predicting crack occurrences in aircraft wheel hubs using eddy current testing (ET) data. This project demonstrates end-to-end data science capabilities in a safety-critical aviation environment.
 
 **Key Achievement: 82% Recall in crack detection using Weighted XGBoost**
 
@@ -37,7 +37,6 @@ Aircraft wheel hub inspections are critical for aviation safety. Missing a crack
 | Logistic Regression | 0.00 | 0.00 | 0.00 | 0.51 | Baseline |
 | Random Forest | 0.19 | 0.45 | 0.26 | 0.62 | class_weight='balanced' |
 | RF + SMOTE | 0.25 | 0.27 | 0.26 | 0.63 | Synthetic oversampling |
-| XGBoost + SMOTE | 0.20 | 0.18 | 0.19 | 0.62 | Gradient boosting |
 | **XGBoost Weighted** | **0.21** | **0.82** | **0.33** | **0.66** | **scale_pos_weight optimization** |
 
 ## Key Insights
