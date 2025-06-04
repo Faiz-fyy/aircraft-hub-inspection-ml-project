@@ -1,0 +1,25 @@
+Aircraft Inspection Dataset - Synthetic Data Creation Note
+
+Overview
+This synthetic dataset replicates the structure and statistical properties of real-world aircraft hub inspection data, ensuring complete data anonymization for public sharing and educational purposes.
+
+The synthetic data was engineered to match key statistical characteristics observed in the original dataset:
+- Overall crack rate: ~14% (matching the 0.14026 proportion from real data)
+- Class imbalance: Maintained the 85.97% vs 14.03% distribution between non-crack and crack results
+- Sample size: Preserved the original 385 inspection records
+
+Realistic Business Patterns
+Several domain-specific patterns were incorporated to ensure the synthetic data reflects realistic aircraft maintenance scenarios:
+- Part Number Variability: Different PN IDs exhibit varying crack rates, with PN007 showing the highest failure rate and PN009 having zero cracks, mimicking real-world part reliability differences.
+- Inspector Distribution: Maintained the two-group inspector classification (Group 1: experienced, Group 2: newer) with realistic workload distributions.
+- Temporal Spread: Inspection dates span across a 2036-day period (approximately 5.6 years) to simulate long-term maintenance tracking.
+- Operational Cycles: Hub cycle data (1-7) reflects actual tire change intervals in aviation maintenance.
+
+Data Anonymization Features
+- Temporal anonymization: "Relative Day" starting from 0 eliminates any calendar-based patterns.
+- Equipment coding: Generic "Type 05 MW" designation removes aircraft model specificity.
+- Personnel anonymization: Inspector IDs replace actual names/identifiers.
+- Part abstraction: PN codes mask actual part numbers and manufacturers.
+
+Data Security Note
+The synthetic generation process ensures no reverse-engineering of original business intelligence, operational patterns, or proprietary maintenance procedures while maintaining analytical complexity suitable for data science practice and portfolio development.
