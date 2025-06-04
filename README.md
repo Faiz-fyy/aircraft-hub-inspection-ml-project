@@ -1,6 +1,6 @@
 # Aircraft Hub Inspection Predictive Modeling
 
-![Python](https://img.shields.io/badge/Python-3.8+-blue) ![Machine Learning](https://img.shields.io/badge/ML-Classification-orange) ![Industry](https://img.shields.io/badge/Industry-Aviation-green)
+![Python](https://img.shields.io/badge/Python-3.8+-blue) ![Machine Learning](https://img.shields.io/badge/ML-Classification-orange) ![Industry](https://img.shields.io/badge/Industry-Aviation-green) ![Dashboard](https://img.shields.io/badge/Dashboard-Power%20BI-F2C811?logo=powerbi&logoColor=white)
 
 **Predictive modeling for aircraft wheel hub crack detection using machine learning**
 
