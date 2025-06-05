@@ -1,4 +1,4 @@
-Aircraft Inspection Dataset - Synthetic Data Creation Note
+Aircraft Hub Inspection Predictive Modeling Dataset - Synthetic Data Creation Note
 
 Overview
 This synthetic dataset replicates the structure and statistical properties of real-world aircraft hub inspection data, ensuring complete data anonymization for public sharing and educational purposes.
