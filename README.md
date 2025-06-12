@@ -88,10 +88,12 @@ Aircraft wheel hub inspections are critical for aviation safety. Missing a crack
 ## Project Structure
 
 ```
-├── notebooks/          # Analysis and modeling notebooks
-├── visualizations/     # Power BI dashboards and plots
-├── docs/               # Methodology and documentation
-└── README.md           # Project overview
+├── notebooks/            # Analysis and modeling notebooks
+├── visualizations/       # Power BI dashboards and plots
+│   ├── dashboards/       # Dashboard screenshots
+│   └── model_analysis/   # ML performance visualizations
+├── docs/                 # Methodology and documentation
+└── README.md             # Project overview
 ```
 
 ---
